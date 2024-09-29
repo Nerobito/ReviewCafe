@@ -1,0 +1,26 @@
+.loading {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .profile-username {
+    font-size: 20px;
+    color: #555;
+  }

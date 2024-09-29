@@ -1,0 +1,32 @@
+.custom-navbar {
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  padding: 10px 20px;
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link-custom {
+  color: white !important;
+  font-weight: bold;
+  margin-left: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover {
+  color: #ffdd57 !important;
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-link-custom {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
